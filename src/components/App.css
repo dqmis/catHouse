@@ -1,0 +1,120 @@
+/* Styles go here */
+
+.content {
+  margin-top: 100px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0 8rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.blue {
+  color: #33ccff;
+}
+
+.green {
+  color: #00ff00;
+}
+
+.forms {
+  margin-top: 70px;
+}
+
+.form-intro {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+
+.form-button {
+  margin: 2rem 0;
+}
+
+.body {
+  background-image: "%PUBLIC_URL%/cat.ico";
+}
+
+.cat-div {
+}
+
+.cat-name {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 1rem;
+  color: #FF0000;
+  text-align: center;
+}
+
+.cat-description {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.cat-list {
+  margin-top: 7rem;
+}
+
+.cat-power {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 0rem 1rem;
+  color: #0000FF;
+  text-align: center;
+}
+
+.cat-price {
+  text-align: center;
+  font-size: 1.5rem;
+  -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+.cat-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display:block;
+  margin:auto;
+  object-fit: cover;
+  margin-top: 2rem;
+}
+
+.cat-fed {
+  overflow: hidden;
+  text-align: center;
+  color: #33ccff;
+}

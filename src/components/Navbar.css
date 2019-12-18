@@ -1,0 +1,12 @@
+.center-title {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #ff00ff!important;
+  padding: 15px;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: white!important;
+  box-shadow: none!important;
+}
